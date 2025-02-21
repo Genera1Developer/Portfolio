@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Rainbow test</title>
+  </head>
+  
+  <style>
+    /*BELOW IS OPEN SOURCE FROM https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css*/
+    #shadowBox {
+      background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 3px solid;
+}
+
+.rainbow {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 32px;
+  font-family: monospace;
+  letter-spacing: 5px;
+  animation: colorRotate 6s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+    /* ABOVE IS OPEN SOURCE FROM https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css*/
+    
+   
+    
+   /*Now for my CSS*/
+.header {
+  text-align: center;
+  font-family: "Trebuchet MS"; 
+  letter-spacing: 5px; 
+}
+    </style>
+  
+  <div class="header">
+    <h1>Portfolio</h1>
+  </div>
+
+    
+    <div id="shadowBox">
+
+      <a href="https://www.curse-k7rm.vercel.app">
+    <h3 class="rainbow">Curse</h3>
+</a>
+
+</div>
+
